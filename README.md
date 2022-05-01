@@ -6,19 +6,19 @@ Kevin Powell's full responsive layouts course
 
 
 Day 1 | Using percentages & avoiding heights
--Percentages vs Fixed widths
--Percentages on the child
--Why it's a good idea to avoid heights
--About the challenges
--Challenge #1
--Challenge #1 - Starting Files
--Information about the daily drip
+- Percentages vs Fixed widths
+- Percentages on the child
+- Why it's a good idea to avoid heights
+- About the challenges
+- Challenge #1
+- Challenge #1 - Starting Files
+- Information about the daily drip
 Day 2 | Getting familiar with relative units
--Getting familiar with relative units
--CSS em and rem explained
--Why you shouldn't set font-sizes usin...
--Day 3 | Enter max-width
--Challenge #1 - Solution
+- Getting familiar with relative units
+- CSS em and rem explained
+- Why you shouldn't set font-sizes usin...
+- Day 3 | Enter max-width
+- Challenge #1 - Solution
 Adding in a max-width
 Challenge #2
 Challenge #2 - Starting Files
