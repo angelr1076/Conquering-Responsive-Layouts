@@ -24,8 +24,11 @@ body {
 .container {
     background: #23424a;
     color: white;
+
     width: 80%;
+    max-width: 750px;
     margin: 0 auto;
+    
     padding: 2em;
 }
 
