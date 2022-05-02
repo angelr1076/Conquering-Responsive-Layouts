@@ -1,70 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,700');
-
-
 html {
-  line-height: 1.6;
-  font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .grid {
-  display: flex;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .col {
-  flex: 1;
-  padding: 0 1em;
+    flex: 1;
+    padding: 0 1em;
 }
 
 h1 {
-  color: steelblue;
+    color: steelblue;
 }
 
 .btn {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background: steelblue;
-  padding: 1em 4em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: steelblue;
+    padding: 1em 4em;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .hero {
-  background: linear-gradient(to left, #83a4d4, #b6fbff);
-  padding: 10vh 0;
-
-  height: 100vh;
+    background: linear-gradient(to left, #83a4d4, #b6fbff);
+    padding: 10vh 0;
+    height: 100vh;
+    /* height: 20vmin; */
 }
 
 .hero-img {
-  box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 25px 5px rgba(0, 0, 0, .5);
 }
 
 .hero-title {
-  font-size: 8vw;
-  line-height: 1;
-  text-transform: uppercase;
-  margin: 0 0 .25em;
+    font-size: 8vw;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 0 .25em;
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
 }
 
 .hero-text {
-  font-size: 1.2em;
-  line-height: 1.7;
-  margin: 0 0 1.5em;
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin: 0 0 1.5em;
 }
 
 .more-content {
-  background: url(//unsplash.it/800/400);
-  background-size: cover;
-  height: 1000px;
+    background: url(//unsplash.it/800/400);
+    background-size: cover;
+    height: 1000px;
 }
