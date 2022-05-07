@@ -35,26 +35,15 @@ h1 {
     font-size: 3rem;
 }
 
-.container,
-.container2 {
+.container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.container2 {
-    padding: 4em 0;
-}
-
-.container2 h2 {
-    color: #87629A;
-}
-
 .row {
     /* display: flex => flex container */
     display: flex;
-    /* can't use yet */
-    /* gap: 100px; */
 }
 
 .col {
@@ -65,12 +54,6 @@ h1 {
 
 .col+.col {
     margin-left: 1em;
-}
-
-.bottom {
-    padding: 100px 0;
-    background-color: #136C72;
-    color: #FFF;
 }
 
 .hero {
@@ -85,6 +68,20 @@ h1 {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+.three-col {
+    padding: 3em 0;
+}
+
+.two-col {
+    background-color: #136C72;
+    color: #FFF;
+    padding: 3em 0;
 }
 
 .btn {
