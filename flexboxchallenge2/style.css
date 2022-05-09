@@ -12,7 +12,9 @@
 
 */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -33,7 +35,7 @@ h1 {
 
 .container {
     width: 80%;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 0 auto;
 }
 
@@ -41,7 +43,6 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -51,7 +52,7 @@ h1 {
     width: 100%;
 }
 
-.col + .col {
+.col+.col {
     margin-left: 30px;
 }
 
@@ -61,23 +62,29 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 62%;
 }
 
-.hero__img {
-    width: 32%;
-    align-self: flex-start;
+.hero__text h1 {
+    font-family: Roboto Black;
+    font-size: 48px;
 }
 
 .hero p {
+    font-family: Roboto Regular;
+    font-size: 21px;
     margin-bottom: 3em;
+}
+
+.hero__img {
+    align-self: flex-start;
 }
 
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -87,5 +94,28 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
+}
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+
+.two-col__title {
+    font-family: Roboto;
+    color: #136C72;
+}
+
+.col {
+    max-width: 66%;
+}
+
+.col-right {
+    background-color: #136C72;
+    color: #fff;
+    text-align: center;
+    max-width: 33%;
+    padding: 3em;
 }
