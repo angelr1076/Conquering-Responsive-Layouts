@@ -74,21 +74,29 @@ header {
     padding: .5em 0;
 }
 
-.nav {}
+.logo {
+    margin-right: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
 
 .nav__list {
     display: flex;
+    /* border: 2px solid red; */
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: .9rem;
 }
 
-.nav__item {
-    margin-right: 2em;
-}
-
-.nav__item--push-right {
-    margin-left: auto;
+.nav__item+.nav__item {
+    margin-left: 2em;
 }
 
 .nav__link {
