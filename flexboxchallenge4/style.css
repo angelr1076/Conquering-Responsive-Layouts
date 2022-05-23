@@ -32,18 +32,21 @@ p {
     align-items: center;
     background-color: #F3EED9;
     height: 50vh;
+    border: 2px solid red;
 }
 
 .intro__title {
     text-transform: uppercase;
     font-family: Roboto Light;
     font-size: 1.125rem;
+    border: 2px solid yellow;
 }
 
 .intro__header {
     font-family: Playfair Display Black;
     font-size: 3.75rem;
     color: #824936;
+    border: 2px solid blue;
 }
 
 .intro-content {
