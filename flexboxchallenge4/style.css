@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    font-family: Roboto Regular;
+    font-family: 'Roboto', Regular;
     font-size: 1.3125rem;
 }
 
@@ -37,20 +37,21 @@ p {
 
 .intro__title {
     text-transform: uppercase;
-    font-family: Roboto Light;
+    font-family: 'Roboto', Light;
     font-size: 1.125rem;
     border: 2px solid yellow;
 }
 
 .intro__header {
-    font-family: Playfair Display Black;
+    width: 50%;
+    font-family: 'Playfair' Black;
     font-size: 3.75rem;
     color: #824936;
     border: 2px solid blue;
 }
 
 .intro-content {
-    font-family: Playfair Display Black;
+    font-family: 'Playfair', Black;
     font-size: 2.25rem;
     color: #824936;
 }
