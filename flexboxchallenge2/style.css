@@ -111,7 +111,7 @@ h1 {
     background-color: #136C72;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .row {
         display: block;
 
