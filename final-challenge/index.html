@@ -5,69 +5,73 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Final Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div class="container main-container">
-    <div class="nav">
-      <div class="container">
-        <ul class="nav__list nav__list--primary">
-          <li class="nav__item"><a href="#" class="nav__link">crl</a></li>
-        </ul>
-        <ul class="nav__list nav__list--secondary">
-          <li class="nav__item"><a href="#" class="nav__link">home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">about</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">sign in</a></li>
-          <li class="nav__item"><a href="#" class="nav__link nav__link--button">sign up</a></li>
-        </ul>
+  <header>
+    <div class="container row">
+    <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">crl</a></li>
+          </ul>
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">sign in</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link--button">sign up</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-    <div class="intro">
+    </header>
+    <div class="hero">
       <div class="container row">
         <div class="col">
-          <h1>Responsive Layouts don't have to be a struggle</h1>
+          <h1 class="hero__title">Responsive Layouts <span class="hero__title--span">don't have to be a struggle</span></h1>
         </div>
         <div class="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum ab dolores voluptas minus voluptates? Quisquam, voluptatibus perferendis?</p>
-          <button>I want to learn</button>
+          <p class="hero__right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum ab dolores voluptas minus voluptates? Quisquam, voluptatibus perferendis?</p>
+          <button class="hero__button">I want to learn</button>
         </div>
       </div>
     </div>
     <div class="section-two">
       <div class="container row">
         <div class="col">
-          <h2>Mobile-first</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, unde voluptates! Eligendi error repellendus ipsam reiciendis inventore autem aut voluptate! Illum distinctio earum perspiciatis sunt!</p>
+          <h2 class="section-two__header">Mobile-first</h2>
+          <p class="section-two__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, unde voluptates! Eligendi error repellendus ipsam reiciendis inventore autem aut voluptate! Illum distinctio earum perspiciatis sunt!</p>
         </div>
         <div class="col">
-          <h2>Efficient</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet aspernatur fugiat hic, laborum numquam sit cumque quam laudantium distinctio possimus nihil eum ut suscipit!</p>
+          <h2 class="section-two__header">Efficient</h2>
+          <p class="section-two__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet aspernatur fugiat hic, laborum numquam sit cumque quam laudantium distinctio possimus nihil eum ut suscipit!</p>
         </div>
         <div class="col">
-          <h2>Done right</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores porro temporibus, illo accusamus vero quae in, consequatur necessitatibus reprehenderit exercitationem ut non cumque perferendis.</p>
+          <h2 class="section-two__header">Done right</h2>
+          <p class="section-two__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores porro temporibus, illo accusamus vero quae in, consequatur necessitatibus reprehenderit exercitationem ut non cumque perferendis.</p>
         </div>
       </div>
     </div>
     <div class="section-three">
       <div class="container row">
         <div class="col">
-          <h2>It doesn't have to be so hard</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptate nemo expedita quo omnis, necessitatibus sed labore. Accusamus reiciendis qui, rem, deserunt repudiandae, corrupti delectus esse velit adipisci quae magnam.</p>
-          <img src="images/the-image.jpeg" alt="random watercolors">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit officiis, non beatae tenetur corrupti! Quis tenetur maiores sequi laboriosam illo, repudiandae quo quae distinctio tempore consequuntur. Numquam, veniam laudantium?</p>
+          <h2 class="section-three__header">It doesn't have to be so hard</h2>
+          <p class="section-three__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis voluptate nemo expedita quo omnis, necessitatibus sed labore. Accusamus reiciendis qui, rem, deserunt repudiandae, corrupti delectus esse velit adipisci quae magnam.</p>
+          <img class="section-three__img" src="images/the-image.jpeg" alt="random watercolors">
+          <p class="section-three__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor velit officiis, non beatae tenetur corrupti! Quis tenetur maiores sequi laboriosam illo, repudiandae quo quae distinctio tempore consequuntur. Numquam, veniam laudantium?</p>
         </div>
         <div class="col">
           <div class="square">
-            <h2>Break it down</h2>
+            <h2 class="square__header">Break it down</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et unde praesentium numquam id quidem saepe.</p>
           </div>
           <div class="square">
-            <h2>Work your way up</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam, qui nulla adipisci earum totam!</p>
+            <h2 class="square__header">Work your way up</h2>
+            <p class="square__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam, qui nulla adipisci earum totam!</p>
           </div>
           <div class="square">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit sed, doloribus tempore ducimus cumque?</p>
+            <p class="square__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit sed, doloribus tempore ducimus cumque?</p>
           </div>
         </div>
       </div>
@@ -76,7 +80,7 @@
       <div class="container row">
         <h2 class="closing">Just scratching the surface</h2>
           <div class="col">
-            <h5 class="closing__headers">
+            <h4 class="closing__headers">
               About our company
             </h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium laborum rerum a maxime error eligendi id natus dolorem aut!</p>
@@ -84,53 +88,58 @@
           <div class="col">
             <h5 class="closing__headers">
               Getting around
-            </h5>
-            <div class="col">
-              Home
-            </div>
-            <div class="col">
-              About
-            </div>
-            <div class="col">
-              Contact
-            </div>
+            </h4>
+            <ul>
+              <li class="col">
+                Home
+              </li>
+              <li class="col">
+                About
+              </li>
+              <li class="col">
+                Contact
+              </li>
+            </ul>
           </div>
           <div class="col">
-            <h5 class="closing__headers">
+            <h4 class="closing__headers">
               Other things
-            </h5>
-            <div class="col">
-              Lorem, ipsum
-            </div>
-            <div class="col">
-              Dolor
-            </div>
-            <div class="col">
-              sit amet
-            </div>
-            <div class="col">
-              consectetur
-            </div>
+            </h4>
+            <ul>
+              <li class="col">
+                Lorem, ipsum
+              </li>
+              <li class="col">
+                Dolor
+              </li>
+              <li class="col">
+                sit amet
+              </li>
+              <li class="col">
+                consectetur
+              </li>
+            </ul>
           </div>
           <div class="col">
-            <h5 class="closing__headers">
+            <h4 class="closing__headers">
               And more
-            </h5>
-            <div class="col">
-              Lorem, ipsum
-            </div>
-            <div class="col">
-              dolor
-            </div>
-            <div class="col">
-              sit amet
-            </div>
-            <div class="col">
-              consectetur
-            </div>
+            </h4>
+            <ul>
+              <li class="col">
+                Lorem, ipsum
+              </li>
+              <li class="col">
+                dolor
+              </li>
+              <li class="col">
+                sit amet
+              </li>
+              <li class="col">
+                consectetur
+              </li>
+            </ul>
           </div>
       </div>
     </div>
-  </div>
 </body>
 </html>
